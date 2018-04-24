@@ -55,7 +55,7 @@ img {
   padding-bottom: 40px;
   font-size: 21px;
   line-height: 1.3em;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: 0.1px;
 }
 
@@ -134,7 +134,7 @@ img {
 @media screen and (max-width: 540px) {
   body {
     display: block;
-    font-size: 20px;
+    font-size: 18px;
   }
   .sitenav .container {
     padding: 0;
@@ -170,7 +170,7 @@ img {
     position: relative;
     padding: 40px 25px;
     background: white;
-    font-size: 21px;
+    font-size: 18px;
     line-height: 1.3em;
   }
   .sitenav .container .showHide {
