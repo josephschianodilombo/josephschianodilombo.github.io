@@ -28,7 +28,7 @@ img {
 }
 
 .active {
-  border-bottom: 0.1px solid #000;
+  font-style: italic;
 }
 
 .sitenav {
