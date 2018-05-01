@@ -110,6 +110,11 @@ img {
   padding-right: 15%;
 }
 
+.content .legend p span {
+  font-weight: 600;
+}
+
+
 @media screen and (max-width: 960px) {
   .content {
     display: block;
