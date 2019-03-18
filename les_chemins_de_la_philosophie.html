@@ -11,7 +11,7 @@
   <link rel="icon" type="image/png" href="images/favicon.png" sizes="32x32">
   <link rel="stylesheet" href="css/main.css" />
   <link rel="stylesheet" href="css/fonts.css" />
-	<title>Joseph Schiano di Lombo</title>
+	<title>Aēsop — Joseph Schiano di Lombo</title>
 </head>
 
 <body>
@@ -55,7 +55,7 @@
               <li><a href="pierre_frey.html">Pierre Frey</a></li>
               <li><a href="portraits.html">Portraits</a></li>
               <li><a href="lancome.html">Lancôme</a></li>
-              <li><a href="les_chemins_de_la_philosophie.html">Les Chemins de la Philosophie</a></li>
+              <li><a class="active" href="les_chemins_de_la_philosophie.html">Les Chemins de la Philosophie</a></li>
               <li><a href="logo_coty.html">Logo Coty Luxury Studio</a></li>
               <li><a href="logo_lancaster.html">Logo Lancaster</a></li>
             </ul>
@@ -95,36 +95,32 @@
   </div>
   <!-- end menu -->
 
-
   <!-- contenu de la page -->
   <div class="content">
     <div class="images">
-        <img id="image" />
+      <img src="images/proj/les_chemins_de_la_philosophie/les_chemins_de_la_philosophie_site_1.jpg">
     </div>
-    <div class="legend"></div>
+
+    <div class="legend">
+      <p>
+        <span class="legendTitle">Les Chemins de la philosophie</span>
+        <br/>
+        <br/>
+        2019
+        <br/>
+        Dessins
+        <br/>
+        <br/>
+        Illustration pour les Chemins de la philosophie, sur France Culture.
+        <br/>
+        1. "De l'amitié entre philosophes" : dessin représentant Étienne de la Boétie et Michel de Montaigne, dans le style de Gabrielle d'Estrées et sa sœur.
+        <br/>
+      </p>
+    </div>
   </div>
 
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
-
-  <script>
-    // Load random image on reload
-    var images = [
-    "images/proj/phantomaton/phantomaton_site_1.jpg",
-    "images/proj/portraits/syd.jpg",
-    "images/proj/clovis_et_daphnee/clovis_et_daphnee.jpg",
-    "images/proj/lard_de_la_figue/ldlf_site_1.jpg",
-    "images/proj/erased_rauschenberg/erased_rauschenberg_1.jpg"
-    ];
-
-    function randImg() {
-        var size = images.length
-        var x = Math.floor(size * Math.random())
-        document.getElementById('image').src = images[x];
-    }
-
-    randImg();
-  </script>
 
 </body>
 
