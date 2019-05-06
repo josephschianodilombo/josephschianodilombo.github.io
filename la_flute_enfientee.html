@@ -11,7 +11,7 @@
   <link rel="icon" type="image/png" href="images/favicon.png" sizes="32x32">
   <link rel="stylesheet" href="css/main.css" />
   <link rel="stylesheet" href="css/fonts.css" />
-	<title>Joseph Schiano di Lombo</title>
+	<title>Lard de la figue — Joseph Schiano di Lombo</title>
 </head>
 
 <body>
@@ -36,7 +36,7 @@
           <li class="cat">Personal work
             <ul class="proj">
               <li><a href="lair.html">L'air</a></li>
-              <li><a href="lard_de_la_figue.html">Lard de la figue</a></li>
+              <li><a class="active" href="lard_de_la_figue.html">Lard de la figue</a></li>
               <li><a href="phantomatons.html">Phantômatons</a></li>
               <li><a href="eros_et_thanatos.html">Eros et Thanatos</a></li>
               <li><a href="clovis_et_daphnee.html">Clovis et Daphnée</a></li>
@@ -44,7 +44,6 @@
               <li><a href="marie_luiz.html">Marie Luiz</a></li>
               <li><a href="sans_titre.html">Sans titre (bande dessinée)</a></li>
               <li><a href="erased_rauschenberg.html">Erased Rauschenberg</a></li>
-              <li><a href="la_flute_enfientee.html">La Flûte enfientée</a></li>
             </ul>
           </li>
 
@@ -97,36 +96,39 @@
   </div>
   <!-- end menu -->
 
-
   <!-- contenu de la page -->
   <div class="content">
     <div class="images">
-        <img id="image" />
+      <img src="images/proj/lard_de_la_figue/ldlf_site_1.jpg">
+      <img src="images/proj/lard_de_la_figue/ldlf_site_2.jpg">
+      <img src="images/proj/lard_de_la_figue/ldlf_site_3.jpg">
     </div>
-    <div class="legend"></div>
+
+    <div class="legend">
+      <p>
+        <span class="legendTitle">Lard de la figue</span>
+        <br/>
+        <br/>
+        2017
+        <br/>
+        Figue noire sur Arches, texte sérigraphié
+        <br/>
+        Black fig on Arches paper, silkprint (for text)
+        <br/>
+        28 x 38 cm
+        <br/>
+        <br/>
+        Qui dit fugue, dit presque figue. D’un jeu de mot sur le savant contrepoint de Jean-Sébastien Bach ont découlé ces expériences fruitières littéralistes : la figue est ici écrasée sur un papier Arches satiné 300 grammes, marquant de son lard la surface vierge avec des airs d’aquarelliste.
+        <br/>
+        <br/>
+        <i>In French, a fugue is almost a fig. A play on words on Johann Sebastian Bach’s counterpoint (</i>The Art of Fugue<i>) have inspired these literalist fruit experiments: the fig is crushed here on Arches paper, marking the virgin surface as a watercolourist.</i>
+      </p>
+    </div>
   </div>
+  <!-- fin du contenu de la page -->
 
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
-
-  <script>
-    // Load random image on reload
-    var images = [
-    "images/proj/phantomaton/phantomaton_site_1.jpg",
-    "images/proj/portraits/syd.jpg",
-    "images/proj/clovis_et_daphnee/clovis_et_daphnee.jpg",
-    "images/proj/lard_de_la_figue/ldlf_site_1.jpg",
-    "images/proj/erased_rauschenberg/erased_rauschenberg_1.jpg"
-    ];
-
-    function randImg() {
-        var size = images.length
-        var x = Math.floor(size * Math.random())
-        document.getElementById('image').src = images[x];
-    }
-
-    randImg();
-  </script>
 
 </body>
 
